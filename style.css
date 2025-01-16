@@ -1,0 +1,55 @@
+body{
+    width: auto;
+    padding: 0px 30px;
+    margin-left: -50px;
+}
+
+ul{
+    background-color: rgb(135, 135, 135);
+    width: 100%;
+    margin-top: -10px;
+    font-size: x-large;
+}
+
+li{
+    padding: 10px 60px 10px 60px;
+    display: inline-block;
+}
+
+ul :hover{
+    background-color: black;
+    color: white;
+}
+
+li ul{
+    display: none;
+}
+
+li ul :hover{
+    display: list-item;
+}
+
+table{
+    text-align: center;
+    margin:50px 200px 20px 200px;
+}
+
+th{
+    border: 2px solid black;
+    font-size: x-large;
+   text-align: center;
+   padding: 4px;
+
+}
+
+td{
+    border: 2px solid black;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+
+}
+
+.main{
+    float: left;
+}
